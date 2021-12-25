@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+     
+        <div data-tab-contant class="container active">
+          <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolorum, molestiae!</p>
+        </div>
+        <div data-tab-contant class="container ">
+          <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nemo, numquam?</p>
+        </div>
+         <div data-tab-contant class="container">
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quibusdam distinctio nulla aliquam accusantium, nihil rem ipsam obcaecati asperiores sequi veniam illum porro explicabo, enim ullam cum. Quae, hic minus? Animi.</p>
+        </div> 
+        <div data-tab-contant class="container">
+          <p>Lorem ipsum dolor sit amet.</p>
+        </div>
+        <div data-tab-contant class="container">
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla qui repudiandae placeat? Modi, at reprehenderit?</p>
+        </div>
+     
+      <div class="nav">
+    <div class="navigation">
+      <ul>
+        <li data-tab-target="home" class="list active">
+          <a href="#">
+            <span class="icon active-icon"><ion-icon  name="home-outline"></ion-icon></span>
+            <span class="text">Home</span>
+          </a>
+        </li>
+        <li data-tab-target="profile" class="list">
+        <a href="#">
+                <span class="icon"><ion-icon name="person-outline"></ion-icon></ion-icon></span>
+                <span class="text">Profile</span>
+            </a>
+        </li>
+        <li data-tab-target="message" class="list">
+            <a href="#">
+                <span class="icon"><ion-icon name="chatbubble-outline"></ion-icon></ion-icon></span>
+                <span class="text">Messages</span>
+            </a>
+          
+        </li>
+        <li data-tab-target="photo" class="list">
+            <a href="#">
+                <span class="icon"><ion-icon name="camera-outline"></ion-icon></ion-icon></span>
+                <span class="text">Photo</span>
+            </a> 
+          
+        </li>
+        <li data-tab-target="settings" class="list">
+            <a href="#">
+                <span class="icon"><ion-icon name="settings-outline"></ion-icon></ion-icon></ion-icon></span>
+                <span class="text">Settings</span>
+            </a> 
+
+        </li>
+        <div class="indicator"/>
+      </ul>
+      
+    </div>
+    </div>
+    <script src="app.js"></script>
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+  </body>
+</html>
